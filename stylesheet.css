@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;9);
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+body{
+    background-color: black;
+    /*background-image: url("my\ background.jpg");
+    background-repeat: no no-repeat;
+    background-position: center;
+    background-size: 1000%;*/
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.navbar{
+    position:fixed;
+    left: 0;
+    top: 50;
+    height: 25px;
+    width:100%;
+    padding: 15px;
+    background: slategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 60px;
+}
+.navbar ul li a{
+    font-size: 20;
+    font-weight: 500;
+    transition: .5s;
+}
+.navbar ul li:hover a, 
+.navbar ul li.active a{
+    color:#7cf03d;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color:#ffffff
+} 
+.home-info h1{
+    font-size: 55px
+}
+.home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+
+}
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25p;
+}
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+}
+.home-info .btn-sci .sci{
+    margin-left: 20px;
+   
+}
+.home-info .btn-sci .sci a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #7cf03d;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#7cf03d;
+    margin: o 8px;
+    transition: 0.5s;
+}
+.home-info .btn-sci .sci a:hover{
+    background: #7cf03d;
+    color:#1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+
+}
+.home-img .img-box{
+    width: 32w;
+    height: 32vw;
+    background: blueviolet;
+    border-radius: 50%;
+
+}
